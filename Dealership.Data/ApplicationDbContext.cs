@@ -19,5 +19,7 @@ namespace Dealership.Data
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Dealership.Data.Models.InspectionRecord> InspectionRecords { get; set; }
     }
 }

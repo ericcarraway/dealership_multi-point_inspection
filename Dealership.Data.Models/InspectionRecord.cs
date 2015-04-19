@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dealership.Data.Models
 {
-    class InspectionRecord
+    public class InspectionRecord
     {
         public int Id { get; set; }
         [Required]
