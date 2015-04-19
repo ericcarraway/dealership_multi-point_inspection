@@ -1,0 +1,440 @@
+﻿@model Dealership.Data.Models.InspectionRecord
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>InspectionRecord</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateIn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateIn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OwnerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OwnerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Horn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Horn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lights_Signals)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lights_Signals)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WindshieldWiper)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WindshieldWiper)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WindshieldGlass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WindshieldGlass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FuelCap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FuelCap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DomeLight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DomeLight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CabinFilter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CabinFilter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkingBrake)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkingBrake)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriverFloormat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverFloormat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AirFilter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AirFilter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BatteryCondition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BatteryCondition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BatteryHealth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BatteryHealth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoolingSystems)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoolingSystems)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Hoses)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Hoses)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DriveBelts)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriveBelts)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Radiator_Condensor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Radiator_Condensor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WinshieldWasher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WinshieldWasher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Coolant)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Coolant)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PowerSteering)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PowerSteering)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Brake)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Brake)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Clutch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Clutch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Transmission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Transmission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Differential)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Differential)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransferCase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransferCase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CvShaft)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CvShaft)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AxleHubBearing)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AxleHubBearing)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SteeringLink)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SteeringLink)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Suspension)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Suspension)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FluidLeaks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FluidLeaks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Exhaust)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exhaust)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FuelLines)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FuelLines)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driveshaft)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driveshaft)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LfWear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LfWear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LfTread)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LfTread)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RfWear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RfWear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RfTread)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RfTread)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LrWear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LrWear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LrTread)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LrTread)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RrWear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RrWear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RrTread)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RrTread)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FrontPsi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrontPsi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BackPsi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BackPsi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LfBrakes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LfBrakes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LrBrakes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LrBrakes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RfBrakes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RfBrakes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RrBrakes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RrBrakes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrakeLining)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrakeLining)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BrakeAssbly)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrakeAssbly)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Discs_Calipers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Discs_Calipers)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

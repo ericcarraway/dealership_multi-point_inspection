@@ -1,0 +1,339 @@
+﻿@model IEnumerable<Dealership.Data.Models.InspectionRecord>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Vin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateIn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OwnerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Horn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lights_Signals)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WindshieldWiper)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WindshieldGlass)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FuelCap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DomeLight)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CabinFilter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ParkingBrake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverFloormat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AirFilter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BatteryCondition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BatteryHealth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CoolingSystems)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Hoses)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriveBelts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Radiator_Condensor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WinshieldWasher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Coolant)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PowerSteering)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Brake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Clutch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Transmission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Differential)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TransferCase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CvShaft)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AxleHubBearing)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SteeringLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Suspension)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FluidLeaks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Exhaust)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FuelLines)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Driveshaft)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LfWear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LfTread)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RfWear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RfTread)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LrWear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LrTread)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RrWear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RrTread)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FrontPsi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BackPsi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LfBrakes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LrBrakes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RfBrakes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RrBrakes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BrakeLining)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BrakeAssbly)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Discs_Calipers)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateIn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OwnerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Horn)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lights_Signals)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WindshieldWiper)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WindshieldGlass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FuelCap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DomeLight)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CabinFilter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ParkingBrake)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverFloormat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AirFilter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatteryCondition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BatteryHealth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CoolingSystems)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Hoses)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriveBelts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Radiator_Condensor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WinshieldWasher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Coolant)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PowerSteering)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Brake)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Clutch)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Transmission)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Differential)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TransferCase)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CvShaft)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AxleHubBearing)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SteeringLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Suspension)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FluidLeaks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Exhaust)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FuelLines)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Driveshaft)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LfWear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LfTread)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RfWear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RfTread)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LrWear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LrTread)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RrWear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RrTread)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FrontPsi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BackPsi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LfBrakes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LrBrakes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RfBrakes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RrBrakes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BrakeLining)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BrakeAssbly)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Discs_Calipers)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
