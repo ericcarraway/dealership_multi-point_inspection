@@ -6,7 +6,5 @@ using Microsoft.AspNet.Identity.Owin;
 
 namespace Dealership.Web.Models
 {
-
-
-
+    // split out ApplicationUser and ApplicationDbContext
 }
