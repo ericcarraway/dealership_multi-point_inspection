@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dealership.Data", "Dealersh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dealership.Data.Models", "Dealership.Data.Models\Dealership.Data.Models.csproj", "{99496282-AABD-462A-B041-1E8EBBCF3E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dealership.Web", "Dealership.Web\Dealership.Web.csproj", "{365B308E-A24E-461A-9D93-FF4F9845C489}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dealership.Web", "Dealership.Web\Dealership.Web.csproj", "{DB0FA520-9628-425F-9952-B8ED28597E7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{99496282-AABD-462A-B041-1E8EBBCF3E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99496282-AABD-462A-B041-1E8EBBCF3E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99496282-AABD-462A-B041-1E8EBBCF3E92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{365B308E-A24E-461A-9D93-FF4F9845C489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{365B308E-A24E-461A-9D93-FF4F9845C489}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{365B308E-A24E-461A-9D93-FF4F9845C489}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{365B308E-A24E-461A-9D93-FF4F9845C489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0FA520-9628-425F-9952-B8ED28597E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0FA520-9628-425F-9952-B8ED28597E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0FA520-9628-425F-9952-B8ED28597E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0FA520-9628-425F-9952-B8ED28597E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
