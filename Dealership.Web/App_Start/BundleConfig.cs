@@ -24,7 +24,7 @@ namespace Dealership.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/flatly_bootstrap.min.css",
                       "~/Content/site.css"));
         }
     }
